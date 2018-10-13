@@ -1,5 +1,5 @@
 
-#911 Calls Project
+# 911 Calls Project
 Analyzing some 911 call data from Kaggle. The data contains the following fields:
 
 lat : String variable, Latitude
@@ -12,16 +12,16 @@ twp: String variable, Township
 addr: String variable, Address
 e: String variable, Dummy variable (always 1)
 
-#Contents
+# Contents
 
-##1) Data Clean-Up
+## 1) Data Clean-Up
 * Creating columns 'Reasons', 'Issue', and 'Station' based on 'descr' and 'title'
 * Droping 'desc','title','twp','addr','e' columns
 * Finding missing 'zip' with the help of 'lat' and 'lng'
 * Filling missing data of 'Station'
 * Creating columns 'Hour','Month','Day of Week', 'Date' from 'timeStamp'
 
-##2) Data Analysis
+## 2) Data Analysis
 * 911 Calls - Zip Code Distribution on Call Reason
 * 911 Calls - Date (Year - Week) of Occurrence on Call Reason
 * 911 Calls - Call Issue on Call Reason
