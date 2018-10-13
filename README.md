@@ -1,6 +1,6 @@
 
 # 911 Calls Project
-Analyzing some 911 call data from Kaggle. The data contains the following fields:
+Analyzing some 911 call data from Kaggle in Python, using Pandas, Plotly, Matplotlib, Seaborn. The data contains the following fields:
 
 * lat : String variable, Latitude
 * lng: String variable, Longitude
